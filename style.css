@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(90deg, red 30%, black 30%);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1642px;
+}
+
+.header {
+  display: flex;
+  padding-top: 46px;
+  justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo__text {
+    
+}
+
+.header__right {
+ display: flex;
+ align-items: center;
+}
+
+.nav__list {
+    display: flex;
+  
+}
+
+.nav__item {
+    margin-left:33px;
+    padding: 0px 54px;
+    list-style: none;
+}
